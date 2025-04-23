@@ -1,4 +1,6 @@
-# git command
+# + Git command +
+
+# + Git setup
 
 #### git --version : to check version of git
 
@@ -6,13 +8,15 @@
 
 #### git config --global user.email '' : used to connect our umail with username
 
-#### git init : used to check initialize repository
-
-#### git config --global initdefaultBranch main : change branch
+# + Repository
 
 ## Repository is where git track everything in our project
 
 ## Repository is like a folder that store our project
+
+#### git config --global initdefaultBranch main : change branch
+
+#### git init : used to check initialize repository
 
 ##### git status : used to see files in our project commit or not
 
@@ -35,3 +39,11 @@
 #### git remote add origin repoGithubLink: link git to github
 
 #### git push -u origin main :push local commit to github
+
+#### git branch brachName : create new branch
+
+#### git checkout branchName : to checkout or change branch
+
+#### git checkout -b branchName : create branch to move to it immidaitely
+
+#### git branch new-branchName source-branch : create a new branch to another specific branch
