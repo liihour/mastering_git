@@ -22,7 +22,7 @@
 
 #### git add fileName : used to commit file for git to track
 
-#### git add ./ : commit all file
+#### git add . : commit all file
 
 #### git commit -m '' : used to note messages
 
@@ -47,3 +47,9 @@
 #### git checkout -b branchName : create branch to move to it immidaitely
 
 #### git branch new-branchName source-branch : create a new branch to another specific branch
+
+#### git push --set-upstream origin branchName OR git push -u origin branchName : publish local branch
+
+#### git push : used when publish local branch already
+
+#### git pull : pull other changes to our local
