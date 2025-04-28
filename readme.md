@@ -33,6 +33,6 @@ git push --set-upstream origin branchName OR git push -u origin branchName : pub
 git push : used when publish local branch already
 git pull : pull other changes to our local
 
-# + Git Conflicts
+# + This is Git Conflicts
 
 git merge main : merge main branch to our branch
