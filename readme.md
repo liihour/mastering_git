@@ -52,3 +52,7 @@ git reset <commit-hash> : moved specified commit to history and keep changes sta
 ## hard reset
 
 git reset --hard <commit-hash> : discard specific commit
+
+git stash apply stash_name : go back to uncommit that we stash
+
+git stash list : check stash list
