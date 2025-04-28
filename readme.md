@@ -35,7 +35,7 @@ git pull : pull other changes to our local
 
 git remote show origin : show branch in our repo
 
-# + This is Git Conflicts
+# + Git Conflicts
 
 git merge main : merge or pull main branch to our branch
 
