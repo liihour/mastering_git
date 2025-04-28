@@ -33,6 +33,22 @@ git push --set-upstream origin branchName OR git push -u origin branchName : pub
 git push : used when publish local branch already
 git pull : pull other changes to our local
 
+git remote show origin : show branch in our repo
+
 # + This is Git Conflicts
 
-git merge main : merge main branch to our branch
+git merge main : merge or pull main branch to our branch
+
+# + reset
+
+## soft reset
+
+git reset --soft <commit-hash> : moved specified commit to history and keep changes stage to work directory and in stage
+
+## mixed reset
+
+git reset <commit-hash> : moved specified commit to history and keep changes stage to work directory but not in stage
+
+## hard reset
+
+git reset --hard <commit-hash> : discard specific commit
